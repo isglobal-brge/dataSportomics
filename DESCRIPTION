@@ -1,0 +1,19 @@
+Package: dataSportomics
+Title: Data Package for Sportomics Courses
+Version: 0.1.0
+Authors@R: c(
+    person("David", "Sarrat González", , "david.sarrat@isglobal.org", role = c("aut", "cre")),
+    person("Juan R", "González", , "juanr.gonzalez@isglobal.org", role = "aut"))
+Description: Provides functions to download and load omics datasets for
+    Sportomics courses. Includes DNA methylation and transcriptomics data
+    from HIIT (High-Intensity Interval Training) studies.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    Biobase
+Suggests:
+    BiocManager
+URL: https://github.com/isglobal-brge/dataSportomics
+BugReports: https://github.com/isglobal-brge/dataSportomics/issues
