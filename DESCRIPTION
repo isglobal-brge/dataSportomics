@@ -17,3 +17,4 @@ Suggests:
     BiocManager
 URL: https://github.com/isglobal-brge/dataSportomics
 BugReports: https://github.com/isglobal-brge/dataSportomics/issues
+LazyData: false

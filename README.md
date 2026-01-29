@@ -15,11 +15,11 @@ remotes::install_github("isglobal-brge/dataSportomics")
 library(dataSportomics)
 
 # Load DNA methylation data (HIIT study)
-eset <- load_eSet_HIIT()
-eset
+data(eSet_HIIT)
+eSet_HIIT
 
 # Load transcriptomics data (EPO study) - coming soon
-# eset <- load_eSet_EPO()
+# data(eSet_EPO)
 ```
 
 ## Datasets
